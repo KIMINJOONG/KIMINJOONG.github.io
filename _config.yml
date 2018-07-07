@@ -1,7 +1,7 @@
 # Site
-title:              Massively
+title:              Kohubi's Diary
 bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+description:        Hello this is Kohubi's Diary thank you for your visiting
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "KIMINJOONG.github.io" # the base hostname & protocol for your site
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Gimhae , KOREA
+phone:              010-333-333
+email:              ijboym216@gmail.com
 
 # Gems
 gems:
