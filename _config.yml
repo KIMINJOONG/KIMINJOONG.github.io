@@ -3,8 +3,8 @@ title:              Kohubi's Diary
 bio:                Hello this is Kohubi's Diary thank you for your visiting
 description:        Hello this is Kohubi's Diary thank you for your visiting
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "\" # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
