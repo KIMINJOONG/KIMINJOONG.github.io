@@ -5,7 +5,6 @@ title: Hello World
 
 i'm injoong with github pages.
 
-'''java
-String str = "hellow World";
-Systme.out.println(str);
-'''
+
+<code>String str = "hellow World";
+Systme.out.println(str);</code>
