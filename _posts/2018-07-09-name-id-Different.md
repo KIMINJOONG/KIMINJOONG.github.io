@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 자바스크립트 id와 name 의 차이점
-content: 안녕
+date:   2018-07-09 23:21:35 +0900
+categories: 소스저장소
 ---
 <p>업무 도중 document.getByElementsName("").value = ~~; 로 값을 준적이 있었다
 팝업으로 값을 보내야하는데 .submit을 해도 도통 값이 넣어지지 않는 경우가 있었다 분명히 값은 들어있다고 나오는데
