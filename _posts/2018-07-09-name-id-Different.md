@@ -9,7 +9,4 @@ title: 자바스크립트 id와 name 의 차이점
 그도 그럴게 name은 중복으로 주면 허용되니까..흑...이것때문에 삽질을 좀 했다 기록해두고 안잊어버리자ㅏㅏㅏ
 
 
-![namdandid](https://user-images.githubusercontent.com/34826306/42425597-71387d0c-835a-11e8-9270-0547b08b3faf.PNG)
-<div>
-<span class="image left"><img src="{{ "/images/namdAndID.png" | absolute_url }}" alt="" /></span>
-</div>
+![namdAndID](https://github.com/KIMINJOONG/KIMINJOONG.github.io/blob/master/images/namdAndID.PNG)
