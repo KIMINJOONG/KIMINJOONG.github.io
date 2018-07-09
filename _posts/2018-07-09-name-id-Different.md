@@ -10,4 +10,6 @@ title: 자바스크립트 id와 name 의 차이점
 
 
 ![namdandid](https://user-images.githubusercontent.com/34826306/42425597-71387d0c-835a-11e8-9270-0547b08b3faf.PNG)
+<div>
 <span class="image left"><img src="{{ "/images/namdAndID.png" | absolute_url }}" alt="" /></span>
+</div>
