@@ -10,5 +10,5 @@ id와 name의 차이점
 자식창에서는 값이 없다니..? 알아본 결과..name은 object NodeList으로 되고 id는 object HTMLInputElement되 있던 것이다!
 그도 그럴게 name은 중복으로 주면 허용되니까..흑...이것때문에 삽질을 좀 했다 기록해두고 안잊어버리자ㅏㅏㅏ
 </p>
-<span class="image fit"><img src="{{ "/images/namdAndID.PNG" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/namdAndID.PNG" | absolute_url }}" alt="" width="150" height="150"/></span>
   </div>
