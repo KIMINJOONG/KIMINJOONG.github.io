@@ -9,4 +9,4 @@ title: 자바스크립트 id와 name 의 차이점
 그도 그럴게 name은 중복으로 주면 허용되니까..흑...이것때문에 삽질을 좀 했다 기록해두고 안잊어버리자ㅏㅏㅏ
 
 
-![namdAndID](https://github.com/KIMINJOONG/KIMINJOONG.github.io/blob/master/images/namdAndID.PNG)
+![namdAndID](https://github.com/KIMINJOONG/KIMINJOONG.github.io/blob/master/images/namdAndID.png)
