@@ -6,7 +6,6 @@ excerpt: "네이티브 앱 vs 웹앱 vs 하이브리드 웹 비교를 "
 image: ""
 ---
 <div class="row">
-   <div class="6u 12u$(small)">
      <h2>1. 네이티브 앱</h2>
         <h3>- 네이티브 앱을 만들기 위해서는 안드로이드 같은 경우 이클립스, 안드로이드 스튜디오 등 개발 프로그램을 이용하여 자바 언어를 사용하고,                iOS라면 XCODE를 사용하여 오브젝티브-C언어나 스위프트 언어를 사용합니다.
          </h3>
@@ -56,7 +55,6 @@ image: ""
     <li> 네이티브 기능을 사용하려면 결국 네이티브 개발 지식이 필요 </li>
     <li> 네이티브 앱에서 웹뷰를 실행시기키 때문에 브라우저의 성능이 앱의 성능이다. </li>
   </ul>
-  </div>
 </div>
 <a href="http://wimir-dev.tistory.com/42">출처: http://wimir-dev.tistory.com/42 [[위미르 개발팀] Android, iOS , Web 제작]</a>
 
