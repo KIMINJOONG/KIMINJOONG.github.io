@@ -2,7 +2,7 @@
 layout: post
 title: 네이티브 앱 vs 웹앱 vs 하이브리드 웹
 date:   2018-07-10
-excerpt: "네이티브 앱 vs 웹앱 vs 하이브리드 웹"
+excerpt: "네이티브 앱 vs 웹앱 vs 하이브리드 웹 비교를 "
 image: ""
 ---
 <div>
