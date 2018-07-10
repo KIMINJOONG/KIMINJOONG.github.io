@@ -51,7 +51,7 @@ image: ""
     <li> 네이티브 앱에서 웹뷰를 실행시기키 때문에 브라우저의 성능이 앱의 성능이다. </li>
   </ol>
 </div>
-<div>
+<p>
 <a href="http://wimir-dev.tistory.com/42">출처: http://wimir-dev.tistory.com/42 [[위미르 개발팀] Android, iOS , Web 제작]</a>
-</div>
+</p>
 
