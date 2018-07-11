@@ -42,8 +42,8 @@ XML은 HTML처럼 데이터를 보여주는 목적이 아닌, 데이터를 저�
   </ol>
   
   <h2 width="100%">XML 예제</h2>
-  <pre>
-  <code>
+  <pre width="100%">
+  <code width="100%">
   &lt;dog&gt;
     &lt;name&gt;식빵&lt;/name&gt;
     &lt;family&gt;웰시코기&lt;family&gt;
@@ -54,8 +54,8 @@ XML은 HTML처럼 데이터를 보여주는 목적이 아닌, 데이터를 저�
   </pre>
   
  <h2 width="100%">JSON 예제</h2>
- <pre>
- <code>
+ <pre width="100%">
+ <code width="100%">
  {
     "name": "식빵",
     "family": "웰시코기",
