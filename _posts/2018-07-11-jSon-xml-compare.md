@@ -44,12 +44,12 @@ XML은 HTML처럼 데이터를 보여주는 목적이 아닌, 데이터를 저�
   <h2>XML 예제</h2>
   <pre>
   <code>
-  <dog>
-    <name>식빵</name>
-    <family>웰시코기<family>
-    <age>1</age>
-    <weight>2.14</weight>
-  </dog>
+  &lt;dog&gt;
+    &lt;name&gt;식빵&lt;/name&gt;
+    &lt;family&gt;웰시코기&lt;family&gt;
+    &lt;age&gt;1&lt;/age&gt;
+    &lt;weight&gt;2.14&lt;/weight&gt;
+  &lt;/dog&gt;
   </code>
   </pre>
   
