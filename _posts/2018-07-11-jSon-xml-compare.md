@@ -79,6 +79,6 @@ XML은 HTML처럼 데이터를 보여주는 목적이 아닌, 데이터를 저�
 따라서 데이터의 검증이 필요한 곳에서는 스키마를 사용하여 데이터의 무결성을 검증할 수 있는 XML이 아직도 많이 사용되고 있습니다.
  </p>
  <p>
-  <a href="http://ooz.co.kr/199">http://ooz.co.kr/199</a>
+  <a href="http://ooz.co.kr/199">http://ooz.co.kr/199 참조</a>
   </p>
 </div>
