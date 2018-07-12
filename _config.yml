@@ -55,11 +55,7 @@ gems:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-enabled: true
-    per_page: 2
-    limit: 0
-    sort_field: "date"
-    sort_reverse: true
+
 
 jekyll-mentions:
     base_url: https://github.com
