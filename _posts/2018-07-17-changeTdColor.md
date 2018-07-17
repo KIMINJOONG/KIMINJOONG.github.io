@@ -10,7 +10,7 @@ image: ""
 처음엔 생성되는 td에 아이디값을 1,2,3,4로 줘서 for문을 td개수만큼 돌면서 내가 클릭한 값이랑 일치하면 색이 변하는걸 생각하였다.
 근데 이것은 엄청 비효율적이다 만약에 td가 30개면 클릭한번 할 때마다 30번을 도는것이 아닌가!!!그래서 과장님의 힌트를 듣고 임시변수를 활용하여
     만들어 보았다!!! 
-    <u>(※vCollection은 저번에 배웠던 map형식으로 만들어져있는 변수이다!)</u>
+    <font color="red">(※vCollection은 저번에 배웠던 map형식으로 만들어져있는 변수이다!)</font>
 <pre style="width:100%;">
 <code>
 function chgTrColor(vCollection){
