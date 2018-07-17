@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 2018-07-17 오늘 만든것 : 선택한 td 색깔 바꾸기
+title: 2018-07-17 클릭한 td의 색깔을 변경해보자
 date:   2018-07-17
-excerpt: 임시변수를 활용하자!
+excerpt: 임시변수를 활요하자!
 image: ""
 ---
 
