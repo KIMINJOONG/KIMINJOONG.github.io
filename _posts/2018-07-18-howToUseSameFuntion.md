@@ -22,9 +22,9 @@ function을 호출할때 1 또는 0 값을 던져준다
   }
   
   등록폼
-  <img src="../../button.gif" onclick=check(1);>
+  &lt;img src="../../button.gif" onclick=check(1);&gt;
   수정폼
-  <img src="../../button.gif" onclick=check(0);>
+  &lt;img src="../../button.gif" onclick=check(0);&gt;
   </code>
 </pre>
 </div>
