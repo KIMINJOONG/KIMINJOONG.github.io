@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2018-07-18 같은 function을 다르게 이용해보자
+title: 2018-07-18 하나의 function에서 
 date:   2018-07-18
 excerpt: 굳이 비슷한 fuction을 한개 더 만들지않고 만들어진 function을 이용해보자!
 image: ""
