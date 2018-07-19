@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 2018-07-18 하나의 function에서 
+title: 2018-07-19 해상도에 맞춘 브라우저 사이즈조절
 date:   2018-07-18
-excerpt: 굳이 비슷한 fuction을 한개 더 만들지않고 만들어진 function을 이용해보자!
+excerpt: 검색결과에 따라 동적으로 생성되는 테이블의 사이즈에 브라우저 크기를 맞춰보자
 image: ""
 ---
 
@@ -42,6 +42,8 @@ vTempTbHeight = vResultTbHeight;
 window.resizeTo(700, vTotalBrowserHegiht);
 </code>
 </pre>
-
-
+<p>
+ 처음에 screen.availHeight 라는것을 찾아볼 생각도 없었고 대충 screen.height에 -40을 임의로 줘서 적당히 작업표시줄에 안걸리게 맞춰줬었다.
+ 브라우저에서 동작되는건 다 구현할수있다는것을 간과했고 상사에게 배우게 되어서 절대로 까먹지않기위해 기록을 했다!
+</p>
 </div>
