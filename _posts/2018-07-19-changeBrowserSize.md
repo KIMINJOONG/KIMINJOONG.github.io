@@ -17,8 +17,8 @@ Math.abs(계산식)    = 절대값이 나옴 무조건 양수값
     500             0               500             500         500 + 500 = 1000
     1000            500             300             200         1000 - 200 = 800
 이전검색결과높이가 현재검색결과 보다 높다면 총크기에서 높이차이의 값을 빼고 현재검색결과가 높으면 높이차이의 값을 더하면 된다!
-<pre style="width:100%">
-<code style="width:100%>
+<pre style="width:100%;">
+<code style="width:100%;">
 var vTempTbHeight       = 0; // 이전 검색결과 길이
 var vTotalBrowserHegiht = 0; // 전체 팝업 브라우저 길이
 var vBrowserHeight      = document.documentElement.clientHeight; //처음시작시 브라우저크기 (고정)
