@@ -30,7 +30,7 @@ var vHeightDifference   = 0; //현재 검색결과 높이와 전에 검색했던
     if (vTempTbHeight == 0 || vTempTbHeight >= screen.availHeight) { //최초로 검색시 or 검색결과값이 클라이언트 해상도 최대값 초과시
         vTotalBrowserHegiht = vBrowserHeight + vResultTbHeight;
     } else {
-        vTotalBrowserHegiht = (vTempTbHeight > vResultTbHeight) ? vTotalBrowserHegiht - vHeightDifference : vTotalBrowserHegiht +               vHeightDifference;
+        vTotalBrowserHegiht = (vTempTbHeight > vResultTbHeight) ? vTotalBrowserHegiht - vHeightDifference : vTotalBrowserHegiht + vHeightDifference;
     }
     if (vTotalBrowserHegiht >= screen.availHeight) {
         jQuery("#searchResultList").css("height", "800px"); //스크롤바 생성을 위해
