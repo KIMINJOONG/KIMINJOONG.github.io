@@ -46,6 +46,7 @@ image: ""
         <li>nth-of-type()</li>
         <li>태그명[속성=속성값] 속성 선택자</li>
       </ul>
+      display inline = span과 비슷하다 width height값이 안먹힘
     </div>
   </body>
 </html>
