@@ -33,7 +33,7 @@ image: ""
      ol &gt; li:ntn-child
      ol &gt; li:nth-of-type(ol 밑에 li태그타입중에 첫번째)
      a[name=a태그에 준 네임값] {} -> name 외에도 id, class, target, title 등 다 들어갈수있음!
-      <h4>선택자의 종류</h4>
+      <h2>선택자의 종류</h2>
       <ul>
         <li>* - 전체 선택자</li>
         <li>태그명 - 태그선택자<li>
