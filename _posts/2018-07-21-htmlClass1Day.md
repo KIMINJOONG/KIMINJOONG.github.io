@@ -9,6 +9,8 @@ image: ""
   <head>
     <meta charset="utf-8"/>
     <title>5-1</title>
+  </head>
+  <body>
     <div>
          CSS embeded 방식
          CSS 우선순위
