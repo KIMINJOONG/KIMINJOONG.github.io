@@ -29,7 +29,23 @@ image: ""
       .클래스명, .클래스명 {}   -------> 클래스를 두개 동시에 선택하기 <br/>
       인라인 태그안에 블록태그는 쓰지않는다 ex) &lt;span&gt;안에 div를 선언하지않음 ※단! 블록태그안에 인라인태그는 가능!<br/>
      문단태그안에는 블록태그가 들어 올 수 없습니다. ex) p태그안에 div태그를 넣으면 깨진다 , p태그안에 ul li태그도 안됌 <br/>
-     문단태그안에는 인라인태그는 가능하다 ex) p태그안에 span태그
+     문단태그안에는 인라인태그는 가능하다 ex) p태그안에 span태그 <br/>
+     ol &gt; li:ntn-child
+     ol &gt; li:nth-of-type(ol 밑에 li태그타입중에 첫번째)
+     a[name=a태그에 준 네임값] {} -> name 외에도 id, class, target, title 등 다 들어갈수있음!
+      <h4>선택자의 </h4>
+      <ul>
+        <li>* - 전체 선택자</li>
+        <li>태그명 - 태그선택자<li>
+        <li>.클래스명 - 클래스 선택자</li>
+        <li>#아이디   - 아이디 선택자</li>
+        <li>부모 > 자식 : 자식선택자</li>
+        <li>조성 후손   : 후손선택자</li>
+        <li>nth-child  : 구조선택자</li>
+        <li>first-child</li>
+        <li>nth-of-type()</li>
+        <li>태그명[속성=속성값] 속성 선택자</li>
+      </ul>
     </div>
   </body>
 </html>
