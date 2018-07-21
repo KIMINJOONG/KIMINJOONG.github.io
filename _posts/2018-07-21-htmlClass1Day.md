@@ -12,7 +12,11 @@ image: ""
     <div>
          CSS embeded 방식
          CSS 우선순위
-         * &lt; 태그 &lt; 클래스 &lt; 아이디 &lt; 인라인 &lt; !important
+         * &lt; 태그 &lt; 클래스 &lt; 아이디 &lt; 인라인 &lt; !important<br/>
+        자식 선택자 선택하는법 <br/>
+      &lt; style &gt;
+        ul &gt; li 를 해주면 ul 하위의 li태그를 선택할 수 있다! 
+      &lt; /style &gt;
     </div>
   </body>
 </html>
