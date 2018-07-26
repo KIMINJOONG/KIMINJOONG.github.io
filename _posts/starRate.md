@@ -1,0 +1,65 @@
+---
+layout: post
+title: 별점매기기
+date: 2018-07-26
+excerpt: 열받는다....
+image: ""
+---
+<div>
+css
+ <pre style="width:100%">
+  <code>
+  .starR1 {
+    background: url('img/ico_star_p.png') no-repeat -52px 0;
+    background-size: auto 100%;
+    width: 15px;
+    height: 30px;
+    float: left;
+    text-indent: -9999px;
+    cursor: pointer;
+    }
+    .starR2 {
+        background: url('img/ico_star_p.png') no-repeat right 0;
+        background-size: auto 100%;
+        width: 15px;
+        height: 30px;
+        float: left;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+    .starR1.on{background-position: 0 0;}
+    .starR2.on{background-position: -15px 0;}
+    .starR1.on1{background-position: 0 0;}
+    .starR2.on1{background-position: -15px 0;}
+  </code>
+ </pre>
+ script
+ <pre style="width:100%">
+  <code> 
+  jQuery(document).ready(function(){
+    jQuery('#star span').click(function() {
+        jQuery(this).parent().children('span').removeClass('on');
+        jQuery(this).addClass('on').prevAll('span').addClass('on');
+        };
+  });
+  </code>
+ </pre>
+ html
+ <pre style="width:100%">
+  <code>
+    &lt;div class="starRev" id="star1" style="padding-left:70px;"&gt;
+        &lt;span class="starR1"&gt;1&lt;/span&gt;
+        &lt;span class="starR2"&gt;2&lt/span&gt;
+        &lt;span class="starR1"&gt;3&lt/span&gt;
+        &lt;span class="starR2"&gt;4&lt/span&gt;
+        &lt;span class="starR1"&gt;5&lt/span&gt;
+        &lt;span class="starR2"&gt;6&lt/span&gt;
+        &lt;span class="starR1"&gt;7&lt/span&gt;
+        &lt;span class="starR2"&gt;8&lt/span&gt;
+        &lt;span class="starR1"&gt;9&lt/span&gt;
+        &lt;span class="starR2"&gt;10&lt/span&gt;
+    &lt;/div&gt;
+  </code>
+ </pre>
+ 
+</div>
