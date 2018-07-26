@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바스크립트 순서를 기억하즈아ㅏ
-date: 2018-07-21
+date: 2018-07-26
 excerpt: dwr에 낚임
 image: ""
 ---
