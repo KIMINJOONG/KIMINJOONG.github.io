@@ -61,7 +61,9 @@ div, p, ul{
  </ul>
  <li> left, right으로 float된 태그를 해제할 때 clear속성을 지정한다</li>
  <li> 해제된 float태그는 밑으로 정렬된다.</li><br/>
- <ul>float와 overflow속성</ul>
+ <ul>
+  <h2>float와 overflow속성</h2>
+ </ul>
  <li>float된 자식태그요소를 가지는 부모태그는 자식태그의 높이값이 지정되지 않는다.</li>
  <li>float된 자식태그요소의 높이값을 부모태그에 지정하기 위해 overflow속성을 지정한다.</li><br/>
  <ul>
