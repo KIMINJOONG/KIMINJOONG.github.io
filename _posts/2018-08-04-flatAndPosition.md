@@ -4,7 +4,12 @@ title: position속성과float속성
 date: 2018-08-04
 excerpt: 재미있다!
 ---
-
+<style>
+div, p, ul{
+  display: block;
+}
+  
+</style>
 <div>
   <p>
     <ul>position : static;</ul>
