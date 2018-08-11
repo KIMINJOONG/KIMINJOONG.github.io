@@ -14,6 +14,7 @@ p {
   width: 100%;
 }
 code {
+  display: blcok;
   width: 100%;
 }
 </style>
