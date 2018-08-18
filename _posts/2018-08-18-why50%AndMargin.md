@@ -1,7 +1,7 @@
 ---
 layout: post
 title: top혹은 right혹은 bottom을 50%주고 margin으로 움직이는걸까
-date: 2018-08-11
+date: 2018-08-18
 excerpt: 
 ---
 
