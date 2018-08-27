@@ -1,0 +1,40 @@
+---
+layout: post
+title: 동적쿼리문 없이 동적쿼리처럼 만들기, 랜덤추출하는법
+date: 2018-08-27
+excerpt: 
+---
+<style>
+  pre {
+    display : block;
+    width : 100%;
+  }
+</style>
+<div>
+  <p>
+    업무는 아이바티스를 연동하여 사용하고있는데 어느날 동적쿼리를 사용하지않고 동적쿼리처럼 구현해보라는것을 들었다
+  </p>
+<div>
+<pre>
+  <code>
+    ((#vo변수명# = '')    or (#vo변수명#    != '' and (date_format(테이블컬럼명, '%Y-%m-%d') >= #vo변수명#)))
+  </code>
+</pre>
+<div>
+  <p>우선은 날짜를 동적으로 비교하는 구문이다 적절히 응용해서 잘 써보자!<br/>
+    다음은 랜덤으로 셀렉트를 해오는 구문이다!
+  </p>
+</div>
+<pre>
+  <code>
+    select *
+    from   테이블명
+    order  by rand()
+    limit  1
+  </code>
+</pre>
+<div>
+  <p>
+    리미트를 1개하면 랜덤으로 셀렉트값을 1개출력 2개면 2개 이런식으로 하면 되겠다.
+  </p>
+</div>
