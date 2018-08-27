@@ -2,7 +2,8 @@
 layout: post
 title: svn업데이트 후 문제가 없는데 오류가 날때
 date: 2018-08-22
-excerpt: 
+excerpt: svn업데이트 후 문제가 없는데 오류가 날때
+
 ---
 
 <div>
