@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://kiminjoong.github.io/sitemap.xml
