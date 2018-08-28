@@ -3,6 +3,9 @@ layout: post
 title: position속성과float속성
 date: 2018-08-04
 excerpt: 재미있다!
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 <style>
 div, p, ul{
