@@ -3,6 +3,9 @@ layout: post
 title: text-overflow 와 whit-space
 date: 2018-08-11
 excerpt: 
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 <style>
 div {
