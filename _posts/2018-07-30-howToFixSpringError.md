@@ -3,6 +3,9 @@ layout: post
 title: 메이븐을 추가하고 bean을 넣는데 클래스가 없다??
 date: 2018-07-28
 excerpt: 아니이럴수가?!
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 <div style="display:block">
