@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바스크립트에서 함수에 문자열 보내기
-date: 2018-08-27
+date: 2018-09-17
 excerpt: 문자열을 보내보즈아ㅏㅏ
 image: ""
 sitemap :
