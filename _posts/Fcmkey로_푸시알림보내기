@@ -1,0 +1,50 @@
+---
+layout: post
+title: Fcmkey로 푸시알림보내기
+date: 2018-11-14
+excerpt: 스레드에 대해
+image: ""
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
+<div>
+  <p>
+    firebase의 가이드에 친절하게 잘 설명되있어서 따라하는 도중
+ </p>
+    <pre>
+      <code>
+        FirebaseOptions options = new FirebaseOptions.Builder()
+        .setCredentials(GoogleCredentials.fromStream(refreshToken))
+        .setDatabaseUrl("https://<DATABASE_NAME>.firebaseio.com/")
+        .build()  
+      </code>
+    </pre>
+    <br/>
+    <p>
+    바로 이 sdk 관리자 인증과정 빌드가 되지않는것인데 오류 구문도 안찍히고 아무것도 안찍히고 여기만 가면 죽어버린다...<br/>
+    그런데 이 메소드를 호출하는 함수를 <br/>
+    new Thread(new Runnable({<br/>
+      public void run() {<br/>
+        sendPush();<br/>
+      }<br/>
+    });<br/>
+    예를 들면 이런식으로 run메서드안에 넣어서 실행해주면 오류코드가 잘찍혀나왔다...8시간을 구글링하고 찾아보고 예제도없고 심지어 이런 오류가<br/>
+    생긴 사람도 없었는것같아서 꼭 해결하면 메모해야겠다고 다짐했다! 결국 문제는 jar파일이 모자라서 그런거였고 jar를 다 설치해주고<br/>
+    스레드를 지워보니 정상적으로 작동이 되었다~! 왜 스레드를 실행했을때 오류를 찍었는지 알아봐야겠다!<br/>
+    필요했던 jar파일
+    firebase-admin-5.9.0 <br/>
+    google-api-client-1.23.0 <br/>
+    google-api-client-gson-1.23.0 <br/>
+    google-auth-library-credentials-0.9.0 <br/>
+    google-auth-library-oauth2-http-0.9.0 <br/>
+    google-http-client-1.23.0 <br/>
+    google-http-client-jackson2-1.23.0 <br/>
+    guava-23.0 <br/>
+    jackson-core-2.9.2 <br/>
+    slf4j-api-1.7.25 <br/>
+    org.json.simple-0.4 --> ? 이것은 필요했는지 좀 헷갈림...ㅋㅋ
+    </p>
+    
+</div>
