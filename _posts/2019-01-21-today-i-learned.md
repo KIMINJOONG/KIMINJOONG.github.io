@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 오늘 배운것
-date: 2019-01-18
+date: 2019-01-21
 excerpt: globalProtect삭제
 image: ""
 sitemap :
