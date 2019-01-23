@@ -16,7 +16,8 @@ sitemap :
         알고보니 그게 동적으로 불러오는 구문이였다..위에사람한테 이일을 얘기하니 아직 DOM에대해 정확히 이해를 못해서 그런걸수도 있다고<br/>
         하였기때문에 맞는말 같아서 DOM에 대해 정리를 해보려고한다!
     </p>
-    
+</div>
+<div>
     <h2>DOM(Document Object Model)이란?</h2>
     <p>브라우저 화면에 보이는 요소를 조작하기 위한 기능으로 가득차있는 각각의 라이브러리라고 덩어리라고 한다.</p>
     <p>자바스크립트를 세분화하면 다음과 같다.</p>
@@ -28,16 +29,13 @@ sitemap :
         <li>자바스크립트DOM : 노드(node), 스타일, 속성, 이벤트, 위치 및 크기 등을 다룰수 있는 다양한 기능이 포함되어있음</li>
         <li>자바스크립트BOM(Browser Object Model) : 브라우저와 관련된 window, navagator, Location, History, Document, Screen 객체들이 포함</li>
     </ul>
-    
+</div>
+<div>
     <h2>D : Document(문서)</h2>
     <p>문서 객체 모델은 문서가 없으면 동작하지 않는다.<br/>
         웹에서 사용할 문서를 만들어 웹 브라우저에 출력하는순간 DOM이 살아 움직이기 시작하는것!<br/>
         그리고 이것은 작성된 웹문서가 객체로 변경되기 때문에 가능한것이다.
     </p>
     <h2>O : Object(객체)</h2>
-    <p>
-        
-    </p>
-    
     <a href="https://webclub.tistory.com/218">출처 : https://webclub.tistory.com/218</a>
 </div>
