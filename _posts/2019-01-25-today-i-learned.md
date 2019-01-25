@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 오늘 배운것 : DOM이란?
-date: 2019-01-23
-excerpt: DOM이란 무엇일까
+title: 오늘 배운것 : 톰캣과 스프링 시작순서, 스레드를 상속받은 클래스는 di불가능?
+date: 2019-01-25
+excerpt: 톰캣과 스프링 시작순서, 스레드를 상속받은 클래스는 di불가능?
 image: ""
 sitemap :
   changefreq : daily
